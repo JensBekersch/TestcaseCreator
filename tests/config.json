@@ -1,0 +1,15 @@
+{
+  "environment": "server",
+  "domain": "http://127.0.0.1:8000",
+  "browser": [
+    "Firefox"
+  ],
+  "screenshot_path": "log/screens/",
+  "screenshots": "false",
+  "options": [
+    "--headless",
+    "--incognito"
+  ],
+  "username": "<username>",
+  "password": "<password>"
+}

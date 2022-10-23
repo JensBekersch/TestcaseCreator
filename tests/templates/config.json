@@ -1,0 +1,15 @@
+{
+  "environment": "standalone",
+  "domain": "<domain>",
+  "browser": [
+    "Firefox"
+  ],
+  "screenshot_path": "log/screens/",
+  "screenshots": "false",
+  "options": [
+    "--headless",
+    "--incognito"
+  ],
+  "username": "<username>",
+  "password": "<password>"
+}
