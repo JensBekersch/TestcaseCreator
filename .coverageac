@@ -9,6 +9,8 @@ omit =
     settings.py
     ./mbff/*
     ./venv/*
+disable_warnings=
+    include-ignored
 
 [report]
 omit =
@@ -21,4 +23,5 @@ exclude_lines =
     pragma: no cover
     def __str__
     def __len__
+
 precision = 2
