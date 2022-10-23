@@ -1,0 +1,24 @@
+[run]
+include =
+    auth/*
+    dashboard/*
+omit =
+    *migrations*
+    */tests/*
+    manage.py
+    settings.py
+    ./mbff/*
+    ./venv/*
+
+[report]
+omit =
+    */tests/*
+    *.html
+    ./tcc/*
+    ./venv/*
+
+exclude_lines =
+    pragma: no cover
+    def __str__
+    def __len__
+precision = 2
